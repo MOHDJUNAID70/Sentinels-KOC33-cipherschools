@@ -1,0 +1,173 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+#Header ul{
+    list-style: none;
+    z-index: 1000;
+
+}
+#Header ul li{
+    background-color: black;
+    border: 2px solid white;
+    width: 299.81px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+#Header ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+#Header ul li a:hover{
+    background-color: rebeccapurple;
+}
+#Header ul ul{
+    position: absolute;
+    display: none;
+}
+#Header ul li:hover > ul{
+    display: block;
+
+}
+#outerbox{
+    width: 1920px;
+    height: 600px;
+    overflow: hidden;
+}
+#sliderbox{
+    position: relative;
+    width: 7680px;
+    animation-name: zoom;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+#sliderbox img{
+    width: 1920px;
+    float: left;
+}
+/* image size set krni hai */
+@keyframes zoom
+{
+    0%
+    {
+        left: 0px;
+    }
+    20%
+    {
+        left: 0px;
+    }
+    25%
+    {
+        left: -1920px;
+    }
+    45%
+    {
+        left: -1920px;
+    }
+    50%
+    {
+        left: -3840px;
+    }
+    70%
+    {
+        left: -3840px;
+    }
+    75%
+    {
+        left: -5760px;
+    }
+    95%
+    {
+        left: -5760px;
+    }
+    100%
+    {
+        left: -7680px;
+    }
+
+}
+.box{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+.box1{
+    border: 0px solid red;
+    height: px;
+    width: 370px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px #bab1ba;
+    transition: transform 1s;
+    background-color: yellowgreen;
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+.momo{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+}
+.noodles{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+}
+.pasta{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+}
+.pakode{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+}
+.soup{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+}
+.fries{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer1{
+    height: 180px;
+    width: 300px;
+    border: 0px solid white;
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    
+}
+p{
+    font-size: xx-large;
+    font-weight: 400;
+    background-image: url(./bg1);
+}
+h1{
+    background-image: url(./bg2.jpeg);
+    color: azure;
+}
